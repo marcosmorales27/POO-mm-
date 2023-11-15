@@ -1,0 +1,45 @@
+
+git config --global usar.name "marcos morales" (agregar nombre)
+
+git config --global user.email "marcosdfg98@gmail.com" (agregar correo)
+
+git config --global -e (vemos la configuracion ingresada)
+
+
+git config --global -l (ver configuraciones)
+usar.name=marcos morales
+user.email=marcosdfg98@gmail.com
+
+git add (agrega archivos a commit)
+
+git init: Inicia un nuevo repositorio Git en un directorio existente.
+
+git clone <url>: Crea una copia local de un repositorio remoto.
+
+git add <archivo>: Agrega cambios al área de preparación (staging).
+
+git commit -m "Mensaje del commit": Guarda los cambios en el repositorio con un mensaje descriptivo.
+
+git status: Muestra el estado actual de los archivos en el directorio de trabajo y en el área de preparación.
+
+git log: Muestra el historial de commits.
+
+git branch: Lista las ramas locales y resalta la rama actual.
+
+git checkout <nombre-de-rama>: Cambia a la rama especificada.
+
+git merge <nombre-de-rama>: Fusiona una rama con la rama actual.
+
+git pull: Obtiene cambios desde un repositorio remoto y los fusiona con la rama actual.
+
+git push: Envía cambios locales a un repositorio remoto.
+
+git remote -v: Muestra los repositorios remotos configurados.
+
+git fetch: Descarga cambios desde un repositorio remoto sin fusionarlos.
+
+git diff: Muestra las diferencias entre los cambios en el área de preparación y el directorio de trabajo.
+
+git reset: Deshace cambios locales en el directorio de trabajo o el área de preparación.
+
+git rm <archivo>: Elimina un archivo del directorio de trabajo y del control de versiones.
